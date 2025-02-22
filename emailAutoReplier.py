@@ -2,7 +2,7 @@ import openai
 
 def generate_reply(email_subject, email_body):
     prompt = f"""
-    You are an AI assistant that generates professional email replies. Given the following email:
+    Given the following email:
     
     Subject: {email_subject}
     
